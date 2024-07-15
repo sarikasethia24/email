@@ -1,7 +1,7 @@
 import datetime as dt
 import smtplib
-my_email = 'sarikasethia2401@gmail.com'
-my_pass = "xwcjkjgkdsicnnau"
+my_email = 'YOUR EMAIL'
+my_pass = "YOUR PASSWORD"
 # date = dt.datetime.now()
 # week = date.weekday()
 # if week == 4:
@@ -12,6 +12,6 @@ with smtplib.SMTP('smtp.gmail.com', 587) as connection:
     # Authentication
     connection.login(my_email, my_pass)
     # sending the mail
-    connection.sendmail(from_addr=my_email, to_addrs="smartengineer0786@gmail", msg="Subject: email through python \n\n hello sir \n name - sarika sethia \n branch - CSE \n college - Sobhasaria group of institutions \n course - Data science with ML and AI  ")
+    connection.sendmail(from_addr=my_email, to_addrs="RECEIVER'S EMAIL", msg= " " )
     # terminating the session
 
